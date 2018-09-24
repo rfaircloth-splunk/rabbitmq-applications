@@ -12,5 +12,5 @@ RUN rabbitmq-plugins enable --offline \
 ADD rabbitmq.config /etc/rabbitmq/rabbitmq.config
 ADD enabled_plugins /etc/rabbitmq/enabled_plugins
 
-COPY rabbitmq.config /etc/rabbitmq/rabbitmq.config"
+COPY rabbitmq.config /etc/rabbitmq/rabbitmq.config
 EXPOSE 1883 5672 15672 25672
